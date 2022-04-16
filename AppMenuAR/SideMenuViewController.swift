@@ -22,12 +22,10 @@ class SideMenuViewController: UIViewController {
 
     var menu: [SideMenuModel] = [
         SideMenuModel(icon: UIImage(systemName: "house.fill")!, title: "Home"),
-        SideMenuModel(icon: UIImage(systemName: "music.note")!, title: "Music"),
-        SideMenuModel(icon: UIImage(systemName: "film.fill")!, title: "Movies"),
-        SideMenuModel(icon: UIImage(systemName: "book.fill")!, title: "Books"),
-        SideMenuModel(icon: UIImage(systemName: "person.fill")!, title: "Profile"),
-        SideMenuModel(icon: UIImage(systemName: "slider.horizontal.3")!, title: "Settings"),
-        SideMenuModel(icon: UIImage(systemName: "hand.thumbsup.fill")!, title: "Like us on facebook")
+        SideMenuModel(icon: UIImage(systemName: "music.note")!, title: "Sound"),
+        SideMenuModel(icon: UIImage(systemName: "film.fill")!, title: "Stars"),
+        SideMenuModel(icon: UIImage(systemName: "book.fill")!, title: "About"),
+       
     ]
 
     override func viewDidLoad() {
@@ -48,7 +46,7 @@ class SideMenuViewController: UIViewController {
         // Footer
         self.footerLabel.textColor = UIColor.white
         self.footerLabel.font = UIFont.systemFont(ofSize: 12, weight: .bold)
-        self.footerLabel.text = "Developed by John Codeos"
+        self.footerLabel.text = "Developed by Alejandro Amezquita, Jacob Harris, and Searra Foote"
 
         // Register TableView Cell
         self.sideMenuTableView.register(SideMenuCell.nib, forCellReuseIdentifier: SideMenuCell.identifier)

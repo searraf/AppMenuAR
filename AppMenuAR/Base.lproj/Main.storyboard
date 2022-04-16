@@ -107,7 +107,7 @@
         <!--View Controller-->
         <scene sceneID="krG-TJ-go1">
             <objects>
-                <viewController storyboardIdentifier="Stars" id="s7v-Da-G1h" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutNavID" id="s7v-Da-G1h" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uqa-oF-K4p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,6 +118,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejd-22-pmc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1641" y="163"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fy0-WS-0y2">
+            <objects>
+                <viewController storyboardIdentifier="StarsNavID" id="QCk-Ej-kYx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DNm-z7-mFq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hvL-pd-z3f"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CrG-8l-xNj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1643" y="-1155"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="avy-Ll-lJQ">
+            <objects>
+                <viewController storyboardIdentifier="SoundNavID" id="5Ay-wz-354" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X2D-ru-ElZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="VzN-Eo-hWh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFO-r5-bf4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2013" y="-510"/>
         </scene>
     </scenes>
     <resources>

@@ -135,28 +135,16 @@ extension MainViewController: SideMenuViewControllerDelegate {
             // Home
             self.showViewController(viewController: UINavigationController.self, storyboardId: "HomeNavID")
         case 1:
-            // Music
-            self.showViewController(viewController: UINavigationController.self, storyboardId: "MusicNavID")
+            // Sound
+            self.showViewController(viewController: UINavigationController.self, storyboardId: "SoundNavID")
         case 2:
-            // Movies
-            self.showViewController(viewController: UINavigationController.self, storyboardId: "MoviesNavID")
+            // Stars
+            self.showViewController(viewController: UINavigationController.self, storyboardId: "StarsNavID")
         case 3:
-            // Books
-            self.showViewController(viewController: BooksViewController.self, storyboardId: "BooksVCID")
-        case 4:
-            // Profile
-            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-            let profileModalVC = storyboard.instantiateViewController(withIdentifier: "ProfileModalID") as? ProfileViewController
-            present(profileModalVC!, animated: true, completion: nil)
-        case 5:
-            // Settings
-            self.showViewController(viewController: UINavigationController.self, storyboardId: "SettingsNavID")
-        case 6:
-            // Like us on facebook
-            let safariVC = SFSafariViewController(url: URL(string: "https://www.facebook.com/johncodeos")!)
-            present(safariVC, animated: true)
+            // About
+            self.showViewController(viewController: UINavigationController.self, storyboardId: "AboutNavID")
         default:
-            break
+            <#code#>
         }
 
         // Collapse side menu with animation
