@@ -143,8 +143,8 @@ extension MainViewController: SideMenuViewControllerDelegate {
         case 3:
             // About
             self.showViewController(viewController: UINavigationController.self, storyboardId: "AboutNavID")
-        default:
-            <#code#>
+        default: break
+            
         }
 
         // Collapse side menu with animation
